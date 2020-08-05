@@ -1,6 +1,9 @@
 #
 # Fibonacci Numbers
 #
+# Given: A positive integer n <= 25
+# Return: The value of Fn
+#
 
 
 def fibonacci(n):
@@ -12,6 +15,5 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 
-N = 21
-
+N = 6
 print(fibonacci(N))

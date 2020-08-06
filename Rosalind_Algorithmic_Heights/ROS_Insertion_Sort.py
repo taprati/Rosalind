@@ -18,7 +18,7 @@ def insertion_sort(nums):
 
 
 # Open file and get data
-file = open("Data/test.txt", 'r')
+file = open("Data/rosalind_ins.txt", 'r')
 n = int(file.readline())
 A = [int(i) for i in file.readline().split(' ')]
 file.close()

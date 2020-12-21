@@ -6,8 +6,11 @@
 #
 
 
-def merge_sorted_arrays(array_A, array_B, l1, l2):
+def merge_sorted_arrays(array_A, array_B):
+    l1 = len(array_A)
+    l2 = len(array_B)
     merged = [None for x in range(l1+l2)]
+
     i = 0
     j = 0
     k = 0
@@ -41,6 +44,8 @@ B = [int(i) for i in file.readline().split(' ')]
 file.close()
 
 # Run Merge
-C = merge_sorted_arrays(A, B, n, m)
+C = merge_sorted_arrays(A, B)
 for i in range(len(C)):
     print(C[i], end=" ")
+    
+

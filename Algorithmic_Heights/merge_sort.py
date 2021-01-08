@@ -13,7 +13,7 @@ def mergeSort(arr):
         mergeSort(left)
         mergeSort(right)
 
-        # Create iterators
+        # Create counters
         i = j = k = 0
 
         while i < len(left) and j < len(right):
